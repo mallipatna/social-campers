@@ -1,0 +1,87 @@
+body {
+    background-color: #eaeaea;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+h1 {
+	padding: 2px;
+	padding-top: 6px;
+    color: #ffffff;
+    text-align: center;
+    font-family: arial;
+    background-color: #a73f2d;
+}
+
+h2 {
+	font-style: normal;
+    color: #a73f2d;
+    font-family: arial;
+}
+
+h3 {
+	font-style: normal;
+    color: #2e6a86;
+    font-family: arial;
+}
+
+table, td, th {
+	border: none;
+	padding: 2px;
+	font-family: arial;
+	min-width: 100%;
+}
+
+th {
+	text-align: left;
+    color: #2e6a86;
+}
+
+p {
+	color: #2e6a86;
+    font-family: arial;
+}
+
+div {
+	color: #2e6a86;
+    font-family: arial;
+}
+
+label {
+	color: #2e6a86;
+	font-family: arial;
+}
+
+textarea {
+	color: #2e6a86;
+	font-family: arial;
+	font-size:14px;
+}
+
+input[type=button], input[type=submit] {
+	-moz-box-shadow:inset 0px 34px 0px -15px #b54b3a;
+	-webkit-box-shadow:inset 0px 34px 0px -15px #b54b3a;
+	box-shadow:inset 0px 34px 0px -15px #b54b3a;
+	background-color:#a73f2d;
+	-moz-border-radius:25px;
+	-webkit-border-radius:25px;
+	border-radius:25px;
+	border:1px solid #241d13;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	padding:6px 23px;
+	text-decoration:none;
+}
+
+input[type=button]:HOVER {
+	background-color:#b34332;
+}
+
+input[type=button]:ACTIVE {
+	position:relative;
+	top:1px;
+}
+
